@@ -1,0 +1,13 @@
+img_size: 640
+tile_size: 640
+overlap: 100
+num_classes: 1
+class_names: [corn_seedling]
+batch_size: 16
+epochs: 100
+lr: 0.001
+weight_decay: 0.0005
+infer:
+  conf: 0.25
+  iou: 0.45
+  nms: class_wise
